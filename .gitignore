@@ -32,3 +32,13 @@ downloads/
 # VCR cassettes - committed after security review
 # Cassettes are scrubbed of sensitive data (cookies, tokens, user IDs, emails)
 # See tests/vcr_config.py for scrubbing patterns
+
+# Auth and local state
+cookies.txt
+test_storage_state.json
+storage_state.json
+
+# Meeting Prep pipeline outputs - contain private meeting data and large media
+Meeting Prep - */
+*.mp3
+*.mp4
